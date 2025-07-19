@@ -11,9 +11,6 @@ image:
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
-service:
-  type: NodePort
-  port: 80
 
 service:
   type: NodePort
